@@ -56,8 +56,8 @@ function cargarJuego(nuevaPalabra){
  function comprobar(letra){
    
    var verificador = true;
-  letra.toLowerCase();
-  palabraOc = palabraOc.toLowerCase();
+  letra.toUpperCase();
+  palabraOc = palabraOc.toUpperCase();
   var nuevo = "";
   var nuevoError = "";
   var error = true;
