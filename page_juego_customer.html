@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>El juego del ahorcado</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/logo.png" alt="Logo da Alura" class="logo">
+        </header>
+        <main>            
+            <section class="canvas">
+              <canvas width="600" height="400px"></canvas>
+               <div id="mensaje"><div>
+            </section>
+
+                <div id="vida">
+                    Por favor use el teclado para jugar
+                </div>
+            
+                <div id="frase">
+                </div> 
+                <div id="fraseIncorrecta" >
+                </div>
+                <div class="maxLetras">
+                    <img src="imagenes/vectorAlerta.png" alt="Alerta" class="imgAlerta">
+                    <p>Máximo 8 letras</p>
+                </div>
+                <input type="text" id="txtPalabra" placeholder="Digite una palabra o frase" maxlength="8">
+            
+            <section class="botones-principal"> 
+           
+                <input type="button" value="Guardar y Jugar" id="guardarJugar" onclick="customer()" > 
+                <input type="button" value="Nuevo juego" id="desistir" onclick="recargar()"> 
+            
+        
+            </section>
+        </main>
+        <footer>
+           <p>&copy; Sabino García Palechor</p>
+        </footer>
+        <script src="script.js"></script>    
+    </body>
+  
+
+</html>
