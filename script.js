@@ -50,7 +50,7 @@ function cargarJuego(nuevaPalabra){
    document.getElementById("frase").innerHTML=palabraAdi;
    
    document.getElementById("fraseIncorrecta").innerHTML=palabraNoAdi;
- console.log(palabraOc);
+ 
  }
  
  function comprobar(letra){
@@ -69,7 +69,7 @@ function cargarJuego(nuevaPalabra){
      nuevo = nuevo + letra + " ";
      error = false;
      aciertos++;
-   console.log("verificador es: " + verificador);
+
    }else {   
      aciertos = aciertos;
    nuevo = nuevo + palabraAdi[i*2] + " ";
@@ -94,7 +94,7 @@ function cargarJuego(nuevaPalabra){
  
   
   if(verificador == true){
-   console.log("verificador para contador es:  " + verificador);
+
    contador++;
   }
   
