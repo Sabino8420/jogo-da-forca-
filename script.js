@@ -230,82 +230,82 @@ function cargarJuego(nuevaPalabra){
   
  switch(codigoLetra){
    case 65:
-   letra = "a";
+   letra = "A";
      break;
      case 66:
-       letra = "b";
+       letra = "B";
          break;
          case 67:
-           letra = "c";
+           letra = "C";
              break;
              case 68:
-               letra = "d";
+               letra = "D";
                  break;
                  case 69:
-                   letra = "e";
+                   letra = "E";
                      break;
                      case 70:
-                       letra = "f";
+                       letra = "F";
                          break;
                          case 71:
-                           letra = "g";
+                           letra = "G";
                              break;
                              case 72:
-                               letra = "h";
+                               letra = "H";
                                  break;
                                  case 73:
-                                   letra = "i";
+                                   letra = "I";
                                      break;
                                      case 74:
-                                       letra = "j";
+                                       letra = "J";
                                          break;
                                          case 75:
-                                           letra = "k";
+                                           letra = "K";
                                              break;
                                              case 76:
-                                               letra = "l";
+                                               letra = "L";
                                                  break;
                                                  case 77:
-                                                   letra = "m";
+                                                   letra = "M";
                                                      break;
                                                       case 78:
-                                                     letra = "n";
+                                                     letra = "N";
                                                        break; 
                                                        case 79:
-                                                       letra = "o";
+                                                       letra = "O";
                                                          break;
                                                           case 80:
-                                                         letra = "p";
+                                                         letra = "P";
                                                            break; 
                                                            case 81:
-                                                           letra = "q";
+                                                           letra = "Q";
                                                              break;
                                                              case 82:
-                                                               letra = "r";
+                                                               letra = "R";
                                                                  break;
                                                                  case 83:
-                                                                   letra = "s";
+                                                                   letra = "S";
                                                                      break;
                                                                      case 84:
-                                                                       letra = "t";
+                                                                       letra = "T";
                                                                          break;
                                                                          case 85:
-                                                                           letra = "u";
+                                                                           letra = "U";
                                                                              break;
                                                                              case 86:
-                                                                               letra = "v";
+                                                                               letra = "V";
                                                                                  break;
                                                                                  case 87:
-                                                                                   letra = "w";
+                                                                                   letra = "W";
                                                                                      break;
                                                                                      case 88:
-                                                                                       letra = "x";
+                                                                                       letra = "X";
                                                                                          break;
                                                                                          case 89:
-                                                                                           letra = "y";
+                                                                                           letra = "Y";
                                                                                              break;
                                                                                              case 90:
-                                                                                               letra = "z";
+                                                                                               letra = "Z";
                                                                                                  break;
                                                                                                                     
  
