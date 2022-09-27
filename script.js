@@ -21,9 +21,15 @@ if(nuevaP != ""){
 
 function cargarJuego(nuevaPalabra){
   let palabras = Array(
-    "carro", "vaca", "superman",
+    "colombia", "italia", "superman",
     "farmacia", "Brinquedo", "computador",
-    "chamada", "escola", "casa",);
+    "usa", "peru", "brasil",
+    "ecuador", "argentina", "venezuela",
+    "india", "china", "ucrania",
+    "africa", "america", "espana",
+    "mexico", "australia", "batman",
+    "bolivia", "tarzan", "antartida",
+    "canada", "cuba", "nicaragua", "islandia");
  var palabraOc ="";
  var palabraAdi = "";
  var palabraNoAdi = "";
